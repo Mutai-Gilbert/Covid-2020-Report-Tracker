@@ -1,39 +1,206 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  box-sizing: border-box;
+  gap: 8px;
+  padding: 4px 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (min-width: 768px) {
+  .home {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.homeinfo {
+  background-color: rgb(241, 128, 151);
+  padding: 15px;
+  height: 100px;
+}
+
+.section {
+  border: 2px solid  rgb(241, 128, 151);
+  background-color: rgb(241, 128, 151);
+  padding: 10px;
+  position: relative;
+  border-radius: 0;
+  outline: none;
+  transition: all 0.3s ease;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.homeinfo:nth-child(even) {
+  background-color: rgb(86, 247, 247);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  to {
-    transform: rotate(360deg);
+.banner1 {
+  height: 100px;
+  margin-right: 20px;
+}
+
+.headerdetails {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.headerdetails h1 {
+  color: azure;
+}
+
+.continent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+  background-color: rgb(244, 153, 171);
+  margin: 0.5rem;
+  border: 2px solid rgb(244, 153, 171);
+  padding: 20px 10px;
+  flex-wrap: wrap;
+}
+
+.continent:nth-child(even) {
+  background-color: rgb(159, 244, 157);
+}
+
+.country {
+  text-align: center;
+  margin-top: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.detailscontainer {
+  padding: 10px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+}
+
+.head {
+  text-align: center;
+}
+
+.header {
+  width: 90%;
+}
+
+.search {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.searchdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.subcontainer {
+  display: grid;
+  gap: 8px;
+  margin-top: 4.5rem;
+}
+
+@media screen and (max-width: 375px) {
+  .subcontainer {
+    grid-template-columns: 1fr;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .subcontainer {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 24px;
+  }
+}
+
+.searchtitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.backicon {
+  font-size: 20px;
+}
+
+.arrow {
+  text-align: end;
+  align-self: end;
+  float: right;
+  transition: all 0.3s ease;
+}
+
+.arrow:hover {
+  transform: translateX(6px);
+}
+
+.section > p {
+  margin: 0;
+  padding: 0;
+}
+
+.section > p:first-child {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #a6d8e9;
+}
+
+.country-section-text {
+  color: white;
+}
+
+.cases {
+  font-size: 0.875rem;
+  color: #ffae44;
+  font-weight: 700;
 }
