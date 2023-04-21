@@ -61,7 +61,7 @@ This is a react diseases project that renders the covid updates from different c
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://www.loom.com/share/bf8adf1ace3d4b3caf857bad0e366b46)
+- [Live Demo Link](https://react-diseases.onrender.com)
 
 ## Live Video Link
 - [Live Video Link](https://www.loom.com/share/bf8adf1ace3d4b3caf857bad0e366b46)
