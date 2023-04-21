@@ -62,7 +62,7 @@ This is a react diseases project that renders the covid updates from different c
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://www.loom.com/share/dc12eea05d2744809a69d3cd4aca9619)
+- [Live Demo Link](https://www.loom.com/share/bf8adf1ace3d4b3caf857bad0e366b46)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
