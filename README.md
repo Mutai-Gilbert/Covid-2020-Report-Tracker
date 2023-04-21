@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 World Diseases Tracker ](#-world-diseases-tracker-)
+- [📖 Covid 2020 Report Tracker ](#-covid-2020-report-tracker-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -24,9 +24,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 World Diseases Tracker <a name="about-project"></a>
+# 📖 Covid 2020 Report Tracker <a name="about-project"></a>
 
-This is a react project that renders the Diseases updates from different countries of the world, it displays the number of cases present per day, tests collected, deaths cases, and much more information, and all those information is obtained from the API and displayed on the UI.
+This is a react diseases project that renders the covid updates from different countries of the world, it displays the number of cases present per day, tests collected, deaths cases, and much more information, and all those information is obtained from the API and displayed on the UI.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -151,9 +151,9 @@ Example command:
 
 ### Deployment
 
-- [link to the project](https://preeminent-treacle-2e03fb.netlify.app/)
+- [link to the project](https://react-diseases.onrender.com)
 
-You can deploy this project using: (netlify)[https://app.netlify.com/login]
+You can deploy this project using: (Render)[https://react-diseases.onrender.com]
 - Run `npm start` in an intergrated terminal in order to start a local live server.
 <!--
 Example:
@@ -184,7 +184,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Mutai-Gilbert/Weather-WebApp/issues). 
+Feel free to check the [issues page](https://github.com/Mutai-Gilbert/React-Diseases). 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
