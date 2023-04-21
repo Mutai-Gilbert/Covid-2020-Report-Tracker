@@ -1,0 +1,805 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details component testing renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="detailscontainer"
+      >
+        <h1
+          class="country"
+        >
+          Nigeria
+        </h1>
+        <div
+          class="subcontainer"
+        >
+          <div
+            class="continent"
+          >
+            <p>
+              Continent
+            </p>
+            <p>
+              Africa
+            </p>
+          </div>
+          <div
+            class="continent"
+          >
+            <p>
+              cases
+            </p>
+            <p>
+              266
+            </p>
+          </div>
+          <div
+            class="continent"
+          >
+            <p>
+              Cases Today
+            </p>
+            <p>
+              1,000
+            </p>
+          </div>
+          <div
+            class="continent"
+          >
+            <p>
+              Deaths Today
+            </p>
+            <p>
+              100
+            </p>
+          </div>
+          <div
+            class="continent"
+          >
+            <p>
+              Recovered
+            </p>
+            <p>
+              10,000
+            </p>
+          </div>
+          <div
+            class="continent"
+          >
+            <p>
+              Recovered Today
+            </p>
+            <p>
+              100
+            </p>
+          </div>
+          <div
+            class="continent"
+          >
+            <p>
+              Active Cases
+            </p>
+            <p>
+              1,000
+            </p>
+          </div>
+          <div
+            class="continent"
+          >
+            <p>
+              Critical
+            </p>
+            <p>
+              100
+            </p>
+          </div>
+          <div
+            class="continent"
+          >
+            <p>
+              Population
+            </p>
+            <p>
+              1,000,000
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="detailscontainer"
+    >
+      <h1
+        class="country"
+      >
+        Nigeria
+      </h1>
+      <div
+        class="subcontainer"
+      >
+        <div
+          class="continent"
+        >
+          <p>
+            Continent
+          </p>
+          <p>
+            Africa
+          </p>
+        </div>
+        <div
+          class="continent"
+        >
+          <p>
+            cases
+          </p>
+          <p>
+            266
+          </p>
+        </div>
+        <div
+          class="continent"
+        >
+          <p>
+            Cases Today
+          </p>
+          <p>
+            1,000
+          </p>
+        </div>
+        <div
+          class="continent"
+        >
+          <p>
+            Deaths Today
+          </p>
+          <p>
+            100
+          </p>
+        </div>
+        <div
+          class="continent"
+        >
+          <p>
+            Recovered
+          </p>
+          <p>
+            10,000
+          </p>
+        </div>
+        <div
+          class="continent"
+        >
+          <p>
+            Recovered Today
+          </p>
+          <p>
+            100
+          </p>
+        </div>
+        <div
+          class="continent"
+        >
+          <p>
+            Active Cases
+          </p>
+          <p>
+            1,000
+          </p>
+        </div>
+        <div
+          class="continent"
+        >
+          <p>
+            Critical
+          </p>
+          <p>
+            100
+          </p>
+        </div>
+        <div
+          class="continent"
+        >
+          <p>
+            Population
+          </p>
+          <p>
+            1,000,000
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Home component testing renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class=""
+      >
+        <div
+          class="homeinfo"
+        >
+          <div
+            class="homeinfo1"
+          >
+            <i
+              class="arrow"
+            >
+              <i>
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-arrow-right "
+                  data-icon="arrow-right"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 448 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </i>
+            </i>
+            <p
+              class="country-section-text"
+            />
+            <p
+              class="cases"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class=""
+    >
+      <div
+        class="homeinfo"
+      >
+        <div
+          class="homeinfo1"
+        >
+          <i
+            class="arrow"
+          >
+            <i>
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-arrow-right "
+                data-icon="arrow-right"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  fill="currentColor"
+                />
+              </svg>
+            </i>
+          </i>
+          <p
+            class="country-section-text"
+          />
+          <p
+            class="cases"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Navbar component testing renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="nav"
+      >
+        <a
+          class="backicon"
+          href="/"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 384 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M365.46 357.74L147.04 255.89l218.47-101.88c16.02-7.47 22.95-26.51 15.48-42.53l-13.52-29C360 66.46 340.96 59.53 324.94 67L18.48 209.91a32.014 32.014 0 0 0-18.48 29v34.24c0 12.44 7.21 23.75 18.48 29l306.31 142.83c16.06 7.49 35.15.54 42.64-15.52l13.56-29.08c7.49-16.06.54-35.15-15.53-42.64z"
+            />
+          </svg>
+        </a>
+        <div
+          class="header"
+        >
+          <h1
+            class="head"
+          >
+            Covid Report
+          </h1>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="nav"
+    >
+      <a
+        class="backicon"
+        href="/"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 384 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M365.46 357.74L147.04 255.89l218.47-101.88c16.02-7.47 22.95-26.51 15.48-42.53l-13.52-29C360 66.46 340.96 59.53 324.94 67L18.48 209.91a32.014 32.014 0 0 0-18.48 29v34.24c0 12.44 7.21 23.75 18.48 29l306.31 142.83c16.06 7.49 35.15.54 42.64-15.52l13.56-29.08c7.49-16.06.54-35.15-15.53-42.64z"
+          />
+        </svg>
+      </a>
+      <div
+        class="header"
+      >
+        <h1
+          class="head"
+        >
+          Covid Report
+        </h1>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="detailscontainer"
+      >
+        <h1
+          class="country"
+        >
+          Nigeria
+        </h1>
+        <div
+          class="subcontainer"
+        >
+          <div
+            class="continent"
+          >
+            <p>
+              Continent
+            </p>
+            <p>
+              Africa
+            </p>
+          </div>
+          <div
+            class="continent"
+          >
+            <p>
+              cases
+            </p>
+            <p>
+              266,675
+            </p>
+          </div>
+          <div
+            class="continent"
+          >
+            <p>
+              Cases Today
+            </p>
+            <p>
+              0
+            </p>
+          </div>
+          <div
+            class="continent"
+          >
+            <p>
+              Deaths Today
+            </p>
+            <p>
+              0
+            </p>
+          </div>
+          <div
+            class="continent"
+          >
+            <p>
+              Recovered
+            </p>
+            <p>
+              259,953
+            </p>
+          </div>
+          <div
+            class="continent"
+          >
+            <p>
+              Recovered Today
+            </p>
+            <p>
+              0
+            </p>
+          </div>
+          <div
+            class="continent"
+          >
+            <p>
+              Active Cases
+            </p>
+            <p>
+              3,567
+            </p>
+          </div>
+          <div
+            class="continent"
+          >
+            <p>
+              Critical
+            </p>
+            <p>
+              11
+            </p>
+          </div>
+          <div
+            class="continent"
+          >
+            <p>
+              Population
+            </p>
+            <p>
+              216,746,934
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="detailscontainer"
+    >
+      <h1
+        class="country"
+      >
+        Nigeria
+      </h1>
+      <div
+        class="subcontainer"
+      >
+        <div
+          class="continent"
+        >
+          <p>
+            Continent
+          </p>
+          <p>
+            Africa
+          </p>
+        </div>
+        <div
+          class="continent"
+        >
+          <p>
+            cases
+          </p>
+          <p>
+            266,675
+          </p>
+        </div>
+        <div
+          class="continent"
+        >
+          <p>
+            Cases Today
+          </p>
+          <p>
+            0
+          </p>
+        </div>
+        <div
+          class="continent"
+        >
+          <p>
+            Deaths Today
+          </p>
+          <p>
+            0
+          </p>
+        </div>
+        <div
+          class="continent"
+        >
+          <p>
+            Recovered
+          </p>
+          <p>
+            259,953
+          </p>
+        </div>
+        <div
+          class="continent"
+        >
+          <p>
+            Recovered Today
+          </p>
+          <p>
+            0
+          </p>
+        </div>
+        <div
+          class="continent"
+        >
+          <p>
+            Active Cases
+          </p>
+          <p>
+            3,567
+          </p>
+        </div>
+        <div
+          class="continent"
+        >
+          <p>
+            Critical
+          </p>
+          <p>
+            11
+          </p>
+        </div>
+        <div
+          class="continent"
+        >
+          <p>
+            Population
+          </p>
+          <p>
+            216,746,934
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

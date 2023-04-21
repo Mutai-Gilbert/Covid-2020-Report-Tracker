@@ -1,10 +1,21 @@
 import PropTypes from 'prop-types';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Homepage = ({ country, cases }) => (
   <div className="">
     <div className="homeinfo">
-      <h3>{country}</h3>
-      <h3>{cases}</h3>
+      <div className="homeinfo1">
+        <i className="arrow">
+          <i>
+            <FontAwesomeIcon icon={faArrowRight} />
+          </i>
+        </i>
+        <p className="country-section-text">
+          {country}
+        </p>
+        <p className="cases">{cases}</p>
+      </div>
     </div>
   </div>
 );

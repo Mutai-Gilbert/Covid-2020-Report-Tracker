@@ -1,7 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap');
+
+:root {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
 }
 
 .home {
@@ -10,6 +27,11 @@
   box-sizing: border-box;
   gap: 8px;
   padding: 4px 8px;
+}
+
+a {
+  box-shadow: rgba(255, 255, 255, 0.2) 0 0 0 1px inset, rgba(0, 0, 0, 0.9) 0 0 0 1px;
+  color: white;
 }
 
 button {
@@ -40,14 +62,8 @@ button:focus-visible {
 }
 
 .homeinfo {
-  background-color: rgb(241, 128, 151);
-  padding: 15px;
-  height: 100px;
-}
-
-.section {
-  border: 2px solid  rgb(241, 128, 151);
-  background-color: rgb(241, 128, 151);
+  border: 2px solid  rgba(0, 50, 73, 0.6);
+  background-color: rgba(0, 70, 93, 1);
   padding: 10px;
   position: relative;
   border-radius: 0;
@@ -60,25 +76,30 @@ button:focus-visible {
   background-color: rgb(86, 247, 247);
 }
 
-.banner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .banner1 {
   height: 100px;
   margin-right: 20px;
 }
 
 .headerdetails {
-  display: flex;
-  align-items: center;
-  margin: 30px 0;
+  background-color: rgba(0, 50, 73, 0.6);
+  margin: 70px 8px 4px 8px;
+  padding: 10px 20px;
+  position: relative;
+  color: white;
 }
 
-.headerdetails h1 {
-  color: azure;
+.headerdetails::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 50, 73, 0.6);
+  background-image: url(./asset/world.svg);
+  background-size: contain;
+  filter: brightness(0.4);
 }
 
 .continent {
@@ -86,24 +107,19 @@ button:focus-visible {
   align-items: center;
   justify-content: space-between;
   font-size: 25px;
-  background-color: rgb(244, 153, 171);
+  background-color: rgba(0, 70, 93, 1);
   margin: 0.5rem;
-  border: 2px solid rgb(244, 153, 171);
+  border: 2px solid rgba(0, 50, 73, 0.6);
   padding: 20px 10px;
   flex-wrap: wrap;
-}
-
-.continent:nth-child(even) {
-  background-color: rgb(159, 244, 157);
+  color: white;
 }
 
 .country {
   text-align: center;
   margin-top: 50px;
-  position: fixed;
   top: 0;
   width: 100%;
-  background-color: white;
 }
 
 .detailscontainer {
@@ -116,12 +132,13 @@ button:focus-visible {
   padding: 10px;
   position: fixed;
   width: 100%;
-  background-color: white;
+  background-color: rgba(0, 70, 93, 1);
   top: 0;
 }
 
 .head {
   text-align: center;
+  color: white;
 }
 
 .header {
@@ -146,7 +163,6 @@ button:focus-visible {
 .subcontainer {
   display: grid;
   gap: 8px;
-  margin-top: 4.5rem;
 }
 
 @media screen and (max-width: 375px) {

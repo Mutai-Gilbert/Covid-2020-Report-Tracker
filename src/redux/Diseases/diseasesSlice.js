@@ -3,18 +3,24 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 const initialState = {
   tracker: [],
   status: null,
+  details: null,
 };
 
 export const fetchApi = createAsyncThunk('virus', async () => {
-  const Omooo = await fetch('https://disease.sh/v3/covid-19/countries/');
-  const Omooo1 = await Omooo.json();
-  return Omooo1;
+  const response = await fetch('https://disease.sh/v3/covid-19/countries/');
+  const data = await response.json();
+  return data;
 });
 
 const covidSlice = createSlice({
   name: 'covid',
   initialState,
-  reducers: {},
+  reducers: {
+    getDetails(state, action) {
+      const details = state;
+      details.details = action.payload;
+    },
+  },
   extraReducers(virus1) {
     virus1
       .addCase(fetchApi.pending, (state) => {
@@ -33,4 +39,5 @@ const covidSlice = createSlice({
   },
 });
 
+export const { getDetails } = covidSlice.actions;
 export default covidSlice.reducer;

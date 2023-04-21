@@ -5,7 +5,7 @@ const Navbar = () => (
   <div className="nav">
     <Link to="/" className="backicon"><FaLessThan /></Link>
     <div className="header">
-      <h1 className="head">Covid 2019</h1>
+      <h1 className="head">Covid Report</h1>
     </div>
   </div>
 );

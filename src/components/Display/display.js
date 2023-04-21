@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { NavLink } from 'react-router-dom';
 import Home from '../Home/home';
-import img from '../../asset/covid.jpg';
+import img from '../../asset/world.svg';
 import { fetchApi } from '../../redux/Diseases/diseasesSlice';
 
 const Display = () => {
@@ -19,11 +19,10 @@ const Display = () => {
     <div className="banner">
       <div className="headerdetails">
         <img className="banner1" src={img} alt="" />
-        <h1>International New Confirmed Covid-19 Cases</h1>
       </div>
       <div className="searchdiv">
         <h4 className="searchtitle">
-          Search by Country
+          International Covid-19 Cases
         </h4>
         <input className="search" type="text" onChange={(e) => setSearch(e.target.value)} value={search} placeholder="search" />
       </div>
