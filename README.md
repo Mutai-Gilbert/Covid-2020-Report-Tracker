@@ -84,15 +84,6 @@ In order to run this project you need:
 - Git & github
 - Netlify
 
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
 Clone this repository to your desired folder:
@@ -101,13 +92,6 @@ Clone this repository to your desired folder:
 - Copy the text that appears below 
 - Type "git clone" in your terminal and past the copied text next to "git clone" and press enter
 <!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
 
 ### Install
 
@@ -131,25 +115,11 @@ Example command:
 To run the project, execute the following command:
 - Allow users to learn about rockets.
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 - Run `npm test` in an intergrated terminal to run automated tests.
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
